@@ -181,7 +181,6 @@ a{
   }
 
 
-
 main{
     display: flex;
     flex-direction: column;
@@ -259,6 +258,12 @@ strong{
     
 }
 
+.text-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .title{
     color: var(--dark5);
     display:flex;
@@ -294,7 +299,6 @@ strong{
     flex-direction: column ;
     border-radius: 3rem;
     margin: 1rem 3rem;
-    
     background-color: var(--dark2);
 }
 
@@ -432,6 +436,41 @@ footer >div{
     .botão{
         display: block;
         z-index: 1;
+    }
+}
+
+@media (max-width:751px){
+    .hell h1{
+        font-size: 25px;
+        margin: 0 3rem;
+    }
+}
+
+@media (max-width:751px){
+    .hell p{
+        font-size: 18px;
+        margin: 0 3rem;
+    }
+}
+
+@media (max-width:751px){
+    .botao-primario{
+        margin: 0 3rem;
+    }
+}
+
+@media (max-width:751px){
+    .img-two{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (max-width:751px){
+    .text-card{
+       margin: 1.4rem 1rem;
+       display: flex;
+       justify-content: center;
     }
 }
 
