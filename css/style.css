@@ -376,7 +376,7 @@ strong{
 
 
 #section-two{
-    margin: 2rem;
+    margin: 2rem 0 6rem 0;
     border-radius: 43rem;
     display:flex;
     flex-direction: column;
@@ -386,17 +386,18 @@ strong{
     gap: 2rem;
     
 }
-
 .text-card{
     display: flex;
     align-items: center;
     justify-content: center;
+   
 }
+
 
 .title{
     color: var(--dark5);
     display:flex;
-    margin-top: 2rem;
+    margin-top: 4rem;
     font-size: 2rem;
     flex-direction: column;
     align-items: center;
@@ -470,6 +471,7 @@ strong{
     gap: 2rem;
     
 }
+
 .background1{
     background-color: var(--dark1);
     border-radius: 4rem;
@@ -561,6 +563,28 @@ strong{
     gap: 4rem;
 }
 
+.text-perfil-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem 4rem 0 4rem;
+}
+
+.text-perfil-one h1{
+    border-bottom: 2px solid var(--cyan1); 
+  padding-bottom: 10px; 
+  margin-bottom: 5px;
+    margin-top: 2rem;
+}
+
+.text-perfil-one p{
+    margin-top: 2rem;
+}
+
+
+
 .detalhes p{
     border-bottom: 1px solid var(--cyan1); 
   padding-bottom: 10px; 
@@ -577,7 +601,7 @@ strong{
     background-color: var(--dark2);
     
     margin: 2rem 0 0 5.8rem;
-    height: 2rem;
+    height: 2.5rem;
     width: 8.9rem;
 }
 
@@ -733,8 +757,7 @@ footer >div{
 .card:hover{
     cursor: pointer;
     transform: translateY(-20px);
-   
-
+    box-shadow: 0 0 50px var(--cyan1);
 }
 
 .card img{
