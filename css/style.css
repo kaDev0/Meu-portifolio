@@ -871,6 +871,10 @@ footer >div{
        display: flex;
        justify-content: center;
     }
+
+    .card{
+       margin: 0 2rem 19rem 2rem;
+    }
 }
 
 
@@ -888,12 +892,28 @@ footer >div{
 
 @media (max-width:750px){
     .perfil{
-        display: flex;
+        display:flex;
         flex-direction: column-reverse;
         align-items: center;
         
         justify-content: center;
     }
+}
+
+    @media (max-width:750px){
+        .background{
+            display:none;
+        }
+
+        .img-de-perfil{
+            margin: 0 3rem 0 0;   
+        }
+
+        .img-de-perfil h1{
+            margin: 1rem 0 1.5rem 3rem;
+        }
+
+
     
     .text-perfil{
         text-align: center;
