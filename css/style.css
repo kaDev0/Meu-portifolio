@@ -28,9 +28,7 @@ body{
     font-family:'lato';
 }
 
-.left{
-    visibility: hidden;
-}
+
 
 #container{
     display: flex;
@@ -90,6 +88,7 @@ a{
 
 .botão{
     display: flex;
+    z-index: 1;
     border: none;
     background: none;
     border-top: 3px solid var(--white);
@@ -113,7 +112,7 @@ a{
 
 .nav {
     height: 70px;
-  
+    z-index:1;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -148,6 +147,8 @@ a{
     width: 100vw;
     height: 100vh;
     background:var(--dark1);
+    
+    
     clip-path: circle(100px at 70% -15%);
     transition: 0.2s ease-out;
 
