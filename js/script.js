@@ -6,5 +6,14 @@ botão.addEventListener("click", () => {
   document.body.classList.toggle('body-no-scroll');
 });
 
+ // pagina //
+
+ window.revelar = ScrollReveal({reset:true})
+
+revelar.reveal('.left',
+{
+    duration:2000,
+    distance:'90px'
+})
 
 

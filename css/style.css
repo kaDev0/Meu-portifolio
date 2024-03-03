@@ -28,6 +28,9 @@ body{
     font-family:'lato';
 }
 
+.left{
+    visibility: hidden;
+}
 
 #container{
     display: flex;
