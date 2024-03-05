@@ -28,7 +28,9 @@ body{
     font-family:'lato';
 }
 
-
+ .div-two, .icons-div-one , .icons-div-two, .icons-div-tre ,.icons-div-for ,.icons-div-six ,.icons-div-rever{
+    visibility: hidden;
+}
 
 #container{
     display: flex;
@@ -381,7 +383,7 @@ strong{
 
 
 #section-two{
-    margin: 2rem 0 6rem 0;
+    margin: 2rem 0 10rem 0;
     border-radius: 43rem;
     display:flex;
     flex-direction: column;
@@ -394,8 +396,7 @@ strong{
 .text-card{
     display: flex;
     align-items: center;
-    justify-content: center;
-   
+    justify-content: center; 
 }
 
 
@@ -415,7 +416,7 @@ strong{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 2rem;
+    margin-top: 7rem;
     gap: 2rem;
     letter-spacing: 2px;
     font-weight: bold;
