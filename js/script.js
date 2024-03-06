@@ -33,21 +33,21 @@ revelar.reveal('.left',
 {
     duration:2000,
     distance:'90px',
-    delay:600
+    delay:400
 })
 
  revelar.reveal('.anime',
 {
     duration:2000,
     distance:'90px',
-    delay:900
+    delay:500
 })
 
 revelar.reveal('.descrição',
 {
     duration:2000,
     distance:'90px',
-    delay:1200
+    delay:700
 })
 
 //---------------------------------------------//
@@ -91,7 +91,7 @@ revelar.reveal('.botão-seção',
 {
  duration:2000,
  distance:'90px',
- delay:2000
+ delay:1500
 })
 
 
